@@ -4,7 +4,7 @@ Implements factory design pattern for reading different types of files like XML,
 import xml.etree.ElementTree as etree
 import json
 
-class JSONConnector():
+class JSONConnector:
     def __init__(self, filepath):
         self.data = dict()
         with open(filepath, mode='r', encoding='utf-8') as f:
@@ -14,7 +14,7 @@ class JSONConnector():
     def parsed_data(self):
         return self.data
 
-class XMLConnector():
+class XMLConnector:
     def __init__(self, filepath):
         self.tree = etree.parse(filepath)
 

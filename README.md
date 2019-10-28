@@ -3,3 +3,4 @@ This repository contains code samples for various kinds of software design patte
 
 ## List of Patterns
 * [Factory Method](https://github.com/pranay414/python-design-patterns/blob/master/factory_method.py)
+* [Abstract Factory Method](https://github.com/pranay414/python-design-patterns/blob/master/abstract_factory_method.py)
